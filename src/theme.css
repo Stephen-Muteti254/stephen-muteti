@@ -1,0 +1,44 @@
+/**
+ * ⚠️ THEME CONFIGURATION — Tailwind v4
+ * Add custom theme values INSIDE the @theme { } block below.
+ * Do NOT nest @media, @layer, or other at-rules inside @theme.
+ * Do NOT create a tailwind.config.js — all theming is done here.
+ * Keep all { } braces balanced.
+ */
+@theme {
+	/* Fonts */
+	--font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+	--font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, monospace;
+
+	/* Colors — graphite with a signal-lime accent */
+	--color-background: #0a0b0d;
+	--color-foreground: #eceef2;
+
+	--color-surface: #101216;
+	--color-surface-2: #161920;
+
+	--color-primary: #c6f432;
+	--color-primary-foreground: #0a0b0d;
+
+	--color-secondary: #1c2028;
+	--color-secondary-foreground: #eceef2;
+
+	--color-destructive: #f87171;
+	--color-destructive-foreground: #0a0b0d;
+
+	--color-muted: #161920;
+	--color-muted-foreground: #8d95a3;
+
+	--color-accent: #7aa2ff;
+	--color-accent-foreground: #0a0b0d;
+
+	--color-border: #22262e;
+	--color-input: #22262e;
+	--color-ring: #c6f432;
+
+	/* Radius */
+	--radius-sm: 0.375rem;
+	--radius-md: 0.5rem;
+	--radius-lg: 0.75rem;
+	--radius-xl: 1rem;
+}

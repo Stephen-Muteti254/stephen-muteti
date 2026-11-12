@@ -1,0 +1,32 @@
+# Allow all crawlers by default.
+User-agent: *
+Allow: /
+
+# AI / answer-engine crawlers.
+# Named explicitly because some only honour a rule that matches their own agent
+# string, and being present in AI answers is a goal for generated sites (AEO).
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://stephen.itnest.org/sitemap.xml
